@@ -1,0 +1,21 @@
+{
+  "name": "building_simple_file_server---copy",
+  "version": "1.0.0",
+  "description": "Requirements",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahimPranto/Building_Simple_File_Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MahimPranto/Building_Simple_File_Server/issues"
+  },
+  "homepage": "https://github.com/MahimPranto/Building_Simple_File_Server#readme"
+}
