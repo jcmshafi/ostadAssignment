@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96de8669-5939-4041-855c-e2c6131489ff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/05-Building a Simple File Server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/05-Building a Simple File Server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/skills/MERN-B3/practice/expressJs",
+    "last_opened_file_path": "D:/skills/MERN-B3/practice/[Express] RestApi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +55,8 @@
       <workItem from="1682880350607" duration="531000" />
       <workItem from="1683046646561" duration="25000" />
       <workItem from="1683822420418" duration="1845000" />
+      <workItem from="1684401572579" duration="1315000" />
+      <workItem from="1685615598888" duration="13776000" />
     </task>
     <servers />
   </component>
