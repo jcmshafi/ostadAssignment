@@ -1,0 +1,35 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Manrope', sans-serif; */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Manrope", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+}
+.navbar-brand img{
+  height: 30px;
+  width: 134px;
+  
+}
+.paragraph-area {
+  background-image: url("../images/bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

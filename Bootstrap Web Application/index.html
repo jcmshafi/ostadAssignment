@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Recipes</title>
+    <!-- css file -->
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- nav bar  start-->
+    <nav id="header" class="navbar navbar-expand-lg" style="background-color: #edf2fc">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo1.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-body justify-content-end">
+            <div>
+              <ul class="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Catagory
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Pizza</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#"> Burger</a>
+                    </li>
+                   
+                    <li>
+                      <a class="dropdown-item" href="#">Sandwich</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <!-- mode -->
+                <li class="form-check form-switch nav-item" id="mode">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar  end-->
+    <!-- hero-area-start -->
+    <div class="hero-area">
+      <div class="container py-5">
+        <div class="row justify-content-center align-items-center p-5">
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="p-4">
+              <h2 class="display-5">
+                Easy Cucumber, Peach, and Basil Salad.
+              </h2>
+              <p class="fs-2 lh-sm text-light-emphasis">
+                Cool, crunchy cucumbers combined with sweet, juicy peaches and dressed in a peppery basil vinaigrette is a great way to make the most of summer and all its gorgeous flavors. This refreshing salad is easy to make and goes great with grilled meat.
+              </p>
+              <div>
+                <button class="btn btn-primary btn-lg">explore now</button>
+                <button class="btn btn-outline-primary btn-lg">
+                  free trial
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="m-auto">
+              <img
+                src="https://www.simplyrecipes.com/thmb/JjqN-4P4g5iyBv-Mx_Qtybze4S4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__07__Peach-Cucumber-Salad-LEAD-10-7be3c004b01f4fa4b42bc5d6c92c3301.jpg"
+                class="shadow rounded w-75"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero-area-end -->
+    <!-- table-area-start -->
+    <div class="table-area p-5">
+      <h2 class="text-center text-uppercase">table design</h2>
+      <div class="container">
+        <table class="table table-responsive table-striped text-center">
+          <thead>
+            <tr>
+              <th scope="col">Serial</th>
+              <th scope="col">Food Categoties</th>
+              <th scope="col">Type of foods in the category</th>
+              <th scope="col">FNDDS code</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row">1</th>
+              <td>Milk</td>
+              <td>Whole, reduced fat, fat-free milk, flavored milk</td>
+              <td>11100000</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Dairy Products</td>
+              <td>Cheeses, cottage, ricotta, yogurt, ice cream</td>
+              <td>11111000</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Meat</td>
+              <td>Beef, pork, lamb</td>
+              <td>11111100</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Poultry</td>
+              <td>Chicken, patties, nuggets</td>
+              <td>11111110</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Fish and seafood</td>
+              <td>Finfish and shellfish</td>
+              <td>111111111</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Eggs and egg dishes</td>
+              <td>Scrambled, fried, omelet</td>
+              <td>1111111111</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- table-area-end -->
+    <!-- modal-area-start -->
+    <div class="modal-area p-5">
+      <h2 class="text-center text-uppercase">modal area</h2>
+      <div class="container">
+        <div class="text-center">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            open modal
+          </button>
+        </div>
+      </div>
+      <!-- Button trigger modal -->
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-2" id="staticBackdropLabel">sing in</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                cancel
+              </button>
+              <button type="button" class="btn btn-primary">submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal-area-end -->
+
+    <!-- tab-area-start -->
+    <div class="tab-area p-5">
+      <h2 class="text-center text-uppercase">Tab view area</h2>
+      <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#home-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="home-tab-pane"
+              aria-selected="true"
+            >
+              Home
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#profile-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="profile-tab-pane"
+              aria-selected="false"
+            >
+              Profile
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#contact-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="contact-tab-pane"
+              aria-selected="false"
+            >
+              Contact
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="home-tab-pane"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+            tabindex="0"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quam
+            numquam, mollitia debitis dolore inventore eveniet quaerat officiis
+            laboriosam quos perferendis dolorem impedit aperiam hic cupiditate
+            sint labore, facilis rem!
+          </div>
+          <div
+            class="tab-pane fade"
+            id="profile-tab-pane"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+            tabindex="0"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quam
+            numquam, mollitia debitis dolore inventore eveniet quaerat officiis
+            laboriosam quos perferendis dolorem impedit aperiam hic cupiditate
+            sint labore, facilis rem! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sequi quam numquam, mollitia debitis dolore
+            inventore eveniet quaerat officiis laboriosam quos perferendis
+            dolorem impedit aperiam hic cupiditate sint labore, facilis rem!
+          </div>
+          <div
+            class="tab-pane fade"
+            id="contact-tab-pane"
+            role="tabpanel"
+            aria-labelledby="contact-tab"
+            tabindex="0"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quam
+            numquam, mollitia debitis dolore inventore eveniet quaerat officiis
+            laboriosam quos perferendis dolorem impedit aperiam hic cupiditate
+            sint labore, facilis rem! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sequi quam numquam, mollitia debitis dolore
+            inventore eveniet quaerat officiis laboriosam quos perferendis
+            dolorem impedit aperiam hic cupiditate sint labore, facilis rem!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quam
+            numquam, mollitia debitis dolore inventore eveniet quaerat officiis
+            laboriosam quos perferendis dolorem impedit aperiam hic cupiditate
+            sint labore, facilis rem!
+          </div>
+          <div
+            class="tab-pane fade"
+            id="disabled-tab-pane"
+            role="tabpanel"
+            aria-labelledby="disabled-tab"
+            tabindex="0"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quam
+            numquam, mollitia debitis dolore inventore eveniet quaerat officiis
+            laboriosam quos perferendis dolorem impedit aperiam hic cupiditate
+            sint labore, facilis rem! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sequi quam numquam, mollitia debitis dolore
+            inventore eveniet quaerat officiis laboriosam quos perferendis
+            dolorem impedit aperiam hic cupiditate sint labore, facilis rem!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quam
+            numquam, mollitia debitis dolore inventore eveniet quaerat officiis
+            laboriosam quos perferendis dolorem impedit aperiam hic cupiditate
+            sint labore, facilis rem! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sequi quam numquam, mollitia debitis dolore
+            inventore eveniet quaerat officiis laboriosam quos perferendis
+            dolorem impedit aperiam hic cupiditate sint labore, facilis rem!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quam
+            numquam, mollitia debitis dolore inventore eveniet quaerat officiis
+            laboriosam quos perferendis dolorem impedit aperiam hic cupiditate
+            sint labore, facilis rem!
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tab -area-end -->
+    <!-- youtube video-area-start -->
+    <div class="youtube-area p-5">
+      <h2 class="text-center text-uppercase">youtube video view area</h2>
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-md-6">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/7k6CKTYZbp0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/z6CmFx32k34"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- youtube video-area-end -->
+    <!-- paragraph-area-start -->
+    <div class="paragraph-area p-5 text-light text-center">
+      <div class="container py-5">
+        <h2 class="text-center text-uppercase fs-1">
+          this is paragraph section
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+          explicabo atque quos quidem magnam obcaecati recusandae labore, vel
+          modi eveniet cupiditate, possimus consequatur sint delectus
+          repellendus laboriosam molestias! Facere earum magni fugiat tenetur
+          qui labore modi quo perferendis reiciendis. Minima iure quae tempora
+          ullam libero obcaecati ad quaerat fugit debitis repellendus pariatur,
+          aliquid et, alias, suscipit doloribus voluptatibus sed accusamus
+          laborum molestiae quibusdam odio distinctio error. Magni, accusantium
+          ipsa est adipisci vero soluta consectetur molestias deleniti nihil
+          cupiditate nobis porro, atque sequi reiciendis ipsam fugit cum facere
+          deserunt sapiente quis a facilis nam. Corporis laboriosam distinctio
+          aspernatur sed ullam omnis.lorem100 orem ipsum dolor sit amet
+          consectetur adipisicing elit. Corporis, explicabo atque quos quidem
+          magnam obcaecati recusandae labore, vel modi eveniet cupiditate,
+          possimus consequatur sint delectus repellendus laboriosam molestias!
+          Facere earum magni fugiat tenetur qui labore modi quo perferendis
+          reiciendis. Minima iure quae tempora ullam libero obcaecati ad quaerat
+          fugit debitis repellendus pariatur, aliquid et, alias, suscipit
+          doloribus voluptatibus sed accusamus laborum molestiae quibusdam odio
+          distinctio error. Magni, accusantium ipsa est adipisci vero soluta
+          consectetur molestias deleniti nihil cupiditate nobis porro, atque
+          sequi reiciendis ipsam fugit cum facere deserunt sapiente quis a
+          facilis nam. Corporis laboriosam distinctio aspernatur sed ullam
+          omnis.lorem100 orem ipsum dolor sit amet consectetur adipisicing elit.
+          Corporis, explicabo atque quos quidem magnam obcaecati recusandae
+          labore, vel modi eveniet cupiditate, possimus consequatur sint
+          delectus repellendus laboriosam molestias! Facere earum magni fugiat
+          tenetur qui labore modi quo perferendis reiciendis. Minima iure quae
+          tempora ullam libero obcaecati ad quaerat fugit debitis repellendus
+          pariatur, aliquid et, alias, suscipit doloribus voluptatibus sed
+          accusamus laborum molestiae quibusdam odio distinctio error. Magni,
+          accusantium ipsa est adipisci vero soluta consectetur molestias
+          deleniti nihil cupiditate nobis porro, atque sequi reiciendis ipsam
+          fugit cum facere deserunt sapiente quis a facilis nam. Corporis
+          laboriosam distinctio aspernatur sed ullam omnis.lorem100 orem ipsum
+          dolor sit amet consectetur adipisicing elit. Corporis, explicabo atque
+          quos quidem magnam obcaecati recusandae labore, vel modi eveniet
+          cupiditate, possimus consequatur sint delectus repellendus laboriosam
+          molestias! Facere earum magni fugiat tenetur qui labore modi quo
+          perferendis reiciendis. Minima iure quae tempora ullam libero
+          obcaecati ad quaerat fugit debitis repellendus pariatur, aliquid et,
+          alias, suscipit doloribus voluptatibus sed accusamus laborum molestiae
+          quibusdam odio distinctio error. Magni, accusantium ipsa est adipisci
+          vero soluta consectetur molestias deleniti nihil cupiditate nobis
+          porro, atque sequi reiciendis ipsam fugit cum facere deserunt sapiente
+          quis a facilis nam. Corporis laboriosam distinctio aspernatur sed
+          ullam omnis.lorem100
+        </p>
+      </div>
+    </div>
+    <!-- paragraph-area-end -->
+    <!-- gallery-area-start -->
+    <div class="gallery-area p-5">
+      <h2 class="text-center text-uppercase fs-1">gallery section</h2>
+      <div class="container">
+        <div class="row g-3 row-cols-lg-4 row-cols-md-2 row-cols-1">
+          <div class="col">
+            <img
+              src="https://www.simplyrecipes.com/thmb/GmvNW73Z_F971CMx_KGy4kVl9lM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SIMPLY-RECIPES-Classic-Potato-Salad-LEAD-2-Horizontal-3dc58bbc058844cbb1e9242e8b1515a7.jpg"
+              alt="img"
+              class="img-fluid img-thumbnail"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://www.simplyrecipes.com/thmb/JjqN-4P4g5iyBv-Mx_Qtybze4S4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__07__Peach-Cucumber-Salad-LEAD-10-7be3c004b01f4fa4b42bc5d6c92c3301.jpg"
+              alt="img"
+              class="img-fluid img-thumbnail"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://www.simplyrecipes.com/thmb/v_qKAzzygpP-8sPm-ryY_ehMqSo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-HT-Cut-Watermelon-LEAD-2-f8927c2391f042e1b57c22d373c6f43c.jpg"
+              alt="img"
+              class="img-fluid img-thumbnail"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://www.simplyrecipes.com/thmb/_WmvU7bRfQkXaQZLurjbUkualks=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Watermelon-Feta-Salad-LEAD-2-afe6c476a762422ba8e0e511d3f75d70.jpg"
+              alt="img"
+              class="img-fluid img-thumbnail"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://www.simplyrecipes.com/thmb/tKPNG3uNHV3yHxisHoJNYt-NwXU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Mediterranean-Chickpea-Salad-LEAD-7-6077d819e3384bf193938466690f97e7.jpg"
+              alt="img"
+              class="img-fluid img-thumbnail"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://www.simplyrecipes.com/thmb/20hF73nvMv3sdzriz28XqHi_rA0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Easy-Cucumber-Salad-LEAD-11-697dd1ceb3474e3f9ae852446b818000.JPG"
+              alt="img"
+              class="img-fluid img-thumbnail"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://www.simplyrecipes.com/thmb/mFIZOTasguP6qwcEyTDWJs1hl6c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__08__Farmers-Market-Salad-LEAD-5-05c4faf5bc6849c1a546ff6b54912f9c.jpg"
+              alt="img"
+              class="img-fluid img-thumbnail"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://www.simplyrecipes.com/thmb/hcZFPDs5-bLOt8Y8ntp9LcCuWG0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Summer-Stone-Fruit-Salad-LEAD-2-b8f6ba4c09484a7bb73901339eeab12f.jpg"
+              alt="img"
+              class="img-fluid img-thumbnail"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- gallery-area-end -->
+    <!-- contact-area-start -->
+    <div class="contact-area bg-body-secondary">
+      <div class="container py-5">
+        <h2 class="text-center text-uppercase fs-1">contact section</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" />
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>khulna</option>
+              <option >Dhaka</option>
+              <option >bagerhat</option>
+              <option >barisal</option>
+              
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                i agree with Conditions
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-secondary">Sign in</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- contact-area-end -->
+    <!-- aleart-area-start -->
+    <div class="alert-area p-5">
+      <div class="container p-5">
+        <h2 class="text-center text-uppercase fs-1 pb-3">alert section</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="alert alert-primary" role="alert">
+              A simple primary alert
+            </div>
+            <div class="alert alert-secondary" role="alert">
+              A simple secondary alert
+            </div>
+            <div class="alert alert-success" role="alert">
+              A simple success alert
+            </div>
+            <div class="alert alert-danger" role="alert">
+              A simple danger alert
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="alert alert-warning" role="alert">
+              A simple warning alert
+            </div>
+            <div class="alert alert-info" role="alert">A simple info alert</div>
+            <div class="alert alert-light" role="alert">
+              A simple light alert
+            </div>
+            <div class="alert alert-dark" role="alert">A simple dark alert</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- aleart-area-end -->
+    <!-- button and group list-area-strt -->
+    <div class="button-area p-5 bg-success p-2 text-dark bg-opacity-25">
+      <div class="container p-5">
+        <h2 class="text-center text-uppercase fs-1 pb-3">
+          button and list group section
+        </h2>
+        <div class="row">
+          <div class="col-md-6">
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-warning">
+              Warning
+            </button>
+            <button type="button" class="btn btn-primary btn-lg">
+              Large button
+            </button>
+            <button type="button" class="btn btn-secondary btn-lg">
+              Large button
+            </button>
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="options-outlined"
+              id="success-outlined"
+              autocomplete="off"
+              checked
+            />
+            <label class="btn btn-outline-success" for="success-outlined"
+              >Checked success radio</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="options-outlined"
+              id="danger-outlined"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-danger" for="danger-outlined"
+              >Danger radio</label
+            >
+          </div>
+          <div class="col-md-6">
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+              />
+              <label class="form-check-label" for="flexSwitchCheckDefault"
+                >Default switch checkbox input</label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckChecked"
+                checked
+              />
+              <label class="form-check-label" for="flexSwitchCheckChecked"
+                >Checked switch checkbox input</label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDisabled"
+                disabled
+              />
+              <label class="form-check-label" for="flexSwitchCheckDisabled"
+                >Disabled switch checkbox input</label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckCheckedDisabled"
+                checked
+                disabled
+              />
+              <label
+                class="form-check-label"
+                for="flexSwitchCheckCheckedDisabled"
+                >Disabled checked switch checkbox input</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Default radio
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- button andgroup-end -->
+
+    <!-- progress bar and spinnner-area-start -->
+    <div class="progress-area p-5">
+      <div class="container p-5">
+        <h2 class="text-center text-uppercase fs-1 pb-3">
+          progress bar and spinnner
+        </h2>
+        <div class="row ">
+          <div class="col-md-6">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <br>
+            <div class="spinner-border text-secondary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div><br>
+            <div class="spinner-border text-success" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+           <br>
+            <div class="spinner-border text-warning" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar w-75"></div>
+            </div>
+            <br>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 25%">25%</div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagination d-flex justify-content-center">
+      <nav aria-label="">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  
+    <!-- footer-area-start -->
+    <div class="footer-area bg-black text-light p-4">
+      <div class="container">
+          <p class="text-center fs-5">Copyright © 2023 - All right reserved by Shafi</p>
+        </div>
+      </div>
+    </div>
+    <!-- footer-area-end -->
+    <!-- js file  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
