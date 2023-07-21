@@ -1,0 +1,10 @@
+body{
+    background-color: #f18181;
+    text-align: center;
+}
+a{
+    margin-left: 2%;
+    border: gray solid;
+    color: white;
+    text-decoration: none;
+}
